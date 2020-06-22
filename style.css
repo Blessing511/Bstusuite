@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+
+
+
+    .menu-session img{
+       margin-bottom: 50px;
+    }
+    .menu-session{
+    height: 40px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.menu-session li{
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 20px;
+    position: relative; 
+}
+
+a{
+    text-decoration: none;
+     color: black;
+     position: relative;
+     top: 30px;
+     left: 5px;
+     
+}

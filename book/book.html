@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <title>Books</title> 
+</head>
+<style>
+*{
+  height: auto;
+}
+html{
+		   background-image: url('../expense/stylesheet/img 4.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: saturation;
+        height: 2000px;
+        width: 1090px;
+        font-family:  'josefin sans', sans-serif;
+        font-size: 20px;
+
+      
+        margin-top: 20px;
+        margin-bottom: 10px;
+		   
+       font-weight: lighter;
+       
+       color: #ffff;
+		
+	}
+ 
+ a :hover {
+        color: blue;
+    }
+    
+    @media screen and (max-width: 500px){
+        .container{
+            max-width: fit-content;
+            height: auto;
+        }
+    }
+
+  
+	
+  
+</style>
+<body>
+  
+  <a class="active"href="../home.html"><i class="fa fa-fw fa-home fa-3x"></a></i>
+
+  <h1>Find A Book</h1>
+  
+  <input type="text"  id="book" name="Enter Book Name or Info"  onchange="find()"> <button style="color: blue" onclick="find()">Find Book </button>
+  <div id="books"></div>
+
+  
+  
+  <script src="js/book.js"></script>
+</body>
+</html>

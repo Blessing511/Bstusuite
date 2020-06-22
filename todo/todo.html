@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<style>
+		a :hover{
+        color: blue;
+    }
+		html{
+		background-image: url('../expense/stylesheet/img 1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 1090px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		color: #ffff;
+	}
+	
+	
+	@media screen and (max-width: 500px){
+        .container{
+            max-width: fit-content;
+            height: auto;
+        }
+    }
+		
+	</style>
+	<body>
+		
+		<a class="active"href="../home.html"><i class="fa fa-fw fa-home fa-3x"></i></a>
+		<div class="todo">
+		<h1>Todo List</h1>
+		<hr>
+		<input id="task"><button style="color: blue;" id="add">Add</button>
+		<hr>
+		<div id="todos"></div>
+		 </div>
+		
+		<script src="js/todo.js"></script>
+	</body>
+</html>
