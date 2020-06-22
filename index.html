@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <title>StuSuite | Helping Students</title>
+    <link rel="style.css" href="style.css">
+</head>
+<style>
+    * {
+        padding:5px;
+    
+    }
+  
+  
+   .menu-session img {
+        width: 80px;
+        height: 50px;
+        padding: 15px;
+        margin-top: -5px;
+        float: left;
+    }
+    .menu-session{
+        width: 100%;
+        overflow: auto;
+        background-color: #fff;
+    }
+.menu-session a{
+    float: right;
+    color: gray;
+    margin-right: 25px;
+    padding: 12px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+ @media screen and (max-width: 500px) {
+    .menu-session a{
+        float: right;
+        display: block;
+        margin-right: -25px;
+        } } 
+     
+     a :hover{
+        color: blue;
+    }
+     
+      .container {
+
+        background-image: url('./expense/stylesheet/img 1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 920px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+
+
+    }  
+     @media screen and (max-width: 500px){
+        .container{
+            max-width: fit-content;
+            height: auto;
+        }
+    }
+     .container h1{
+        
+        color: white;
+    }  
+
+    .todo {
+        background-color: rgb(0, 72, 255)
+    }
+    .todo h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white
+    }
+    .todo h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .todo button {
+        background-color: slategray;
+        color: #000;
+    }
+    .expense h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    
+    }
+    .expense h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+    .expense button {
+        background-color: rgb(0, 72, 255);
+        color: #000;
+    }
+
+    .book {
+        background-color: rgb(0, 72, 255);
+    }
+    .book h1{
+        color: white;
+        text-align: center;
+    }
+    .book h3{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .book button {
+        background-color: gray;
+        color: #000;
+    }
+    footer{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+</style>
+
+<body>
+
+    <div class="menu-session">
+            <img src="./expense/stylesheet/logo.jpg" alt="logo">
+            
+<a class="active"href="book/book.html"><i class="fa fa-fw fa-book fa-2x"></i></a>
+<a class="active"href="expense/expense.html"><i class="fa fa-fw fa-money fa-2x"></i></a>
+<a class="active"href="todo/todo.html"><i class="fa fa-fw fa-tasks fa-2x"></i></a>
+<a class="active"href="index.html"><i class="fa fa-fw fa-home fa-2x"></i></a>
+            
+            
+
+        </ul>
+    </div>
+    
+    
+    <div class="container">
+        
+        <h1>This project was designed to help students and lovers of book to 
+            ease their search for books online and for them to be able to track their
+            expense to stay within their budget.
+        </h1>
+    </div>
+
+    <div class="todo">
+        <h1>To-do List</h1>
+        <h3> The To-do list help users to enter a list of things needed to be get done with.
+            once any of it has been done, the user can remove such item.
+        </h3>
+        <form method="GET" action="todo/todo.html">
+            <button type="submit">click to explore</button></form>
+    </div>
+
+    <div class="expense">
+        <h1>Expense</h1>
+        <h3>Expense Tracker help user add their budget, expense name
+            and expense amount and give a list of expenses entered.
+        </h3>
+        <form method="GET" action="expense/expense.html">
+            <button type="submit">click to explore</button></form>
+    </div>
+
+    <div class="book">
+        <h1>Find a Book</h1>
+        <h3>Users enter a book name in the search box and the search result includes book
+            title, book description and author(s) that matches the query.
+        </h3>
+        <form method="GET" action="book/book.html">
+            <button type="submit">click to explore</button></form>
+    </div>
+    
+    <footer>
+        &copy;2020 copyright: Designed by Adebisi Blessing
+    </footer>
+
+</body>
+
+</html>
